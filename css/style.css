@@ -93,20 +93,29 @@
     max-width: 100%;
     padding: 0 5rem;
     margin-top: 0.5rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
 }
 
 /* Acceuil partie left */
 .acceuil-container .container-left{
     display: block;
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
 }
 
-.acceuil-container .container-left 
+.acceuil-container .container-left h2{
+    font-size: 40px;
+    margin-bottom: 45px;
+    color: var(--color-secondary);
+} 
+
+.acceuil-container .container-left h2 span{
+    color: var(--color-fifth);
+}
 
 /* Acceuil partie right */
 .acceuil-container .container-right img{
     width: 350px;
     border-radius: 50%;
+    
 }
