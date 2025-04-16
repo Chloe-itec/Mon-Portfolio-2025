@@ -10,11 +10,12 @@
     list-style: none;
 }
 
+/* Création des variables */
 :root{
     --color-primary: #e8e9e7;
     --color-secondary: #817a81;
     --color-third: #ffffff;
-    --card-bg-color: #e8e9e7;
+    --card-bg-color: #5f5f5f;
     --color-fourth: #38bfd1;
     --color-fifth: #003c41;
     --color-hover-lien: #38bfd1;
@@ -22,6 +23,7 @@
     --transition: 0.2s ease-in-out;
 }
 
+/* Debut de la stylisation de la page d'accueil */
 .entete-wel{
     text-align: center;
     justify-content: center;
@@ -30,6 +32,7 @@
     color: var(--color-fourth);
 }
 
+/* Stylisation de la barre de navigation */
 .navbar .logo span{
     color: var(--color-fifth);
 }
@@ -42,10 +45,16 @@
     max-width: 100%;
     gap: 4rem;
     padding: 1rem 1rem;
+    box-shadow: 1px 5px 5px var(--card-bg-color)
 }
 
 .navbar a{
     color: var(--color-third);
+}
+
+.navbar li a{
+    color: var(--color-third);
+    font-size: 14px;
 }
 
 .navbar li a:hover{
@@ -66,4 +75,38 @@
     color: var(--color-fifth);
     font-size: 17px;
     transition: var(--transition);
+}
+
+/* Suite de la stylisation de la page Acceuil */
+#acceuil{
+    max-width: 100%;
+    height: 90vh;
+    background: var(--color-primary);
+    position: relative;
+}
+
+.acceuil-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 5rem;
+    margin-top: 0.5rem;
+    padding-top: 7rem;
+}
+
+/* Acceuil partie left */
+.acceuil-container .container-left{
+    display: block;
+    text-align: center;
+    max-width: 700px;
+}
+
+.acceuil-container .container-left 
+
+/* Acceuil partie right */
+.acceuil-container .container-right img{
+    width: 350px;
+    border-radius: 50%;
 }
