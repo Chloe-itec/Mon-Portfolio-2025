@@ -10,6 +10,10 @@
     list-style: none;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 /* Création des variables */
 :root{
     --color-primary: #e8e9e7;
@@ -79,7 +83,7 @@
 /* Suite de la stylisation de la page Acceuil */
 #acceuil{
     max-width: 100%;
-    height: 90vh;
+    height: 78vh;
     background: var(--email-color);
     position: relative;
 }
@@ -141,6 +145,10 @@
 #a-propos{
     max-width: 100%;
     height: 90vh;
-    background: var(--email-color);
+    background: var(--color-secondary);
     position: relative;
+}
+
+#a-propos .about{
+    
 }
